@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Colorful Note App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>📝 My Notes</h1>
+    <button id="toggle-theme">🌙 Toggle Dark Mode</button>
+    <input type="text" id="search" placeholder="🔍 Search notes..." />
+
+    <div class="note-input">
+      <textarea id="new-note" placeholder="Write a new note..."></textarea>
+      <button onclick="addNote()">➕ Add Note</button>
+    </div>
+
+    <div id="notes-container" class="notes-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
